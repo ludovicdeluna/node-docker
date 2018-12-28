@@ -2,8 +2,7 @@
 /nbproject
 /.idea
 
-# Temp dirs & trash
+# Temp dirs and trash
 /temp
 /tmp
-/.docker
 .DS_Store
