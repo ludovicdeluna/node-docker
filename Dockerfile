@@ -2,7 +2,7 @@ FROM node:latest
 
 RUN set -xe \
     && apt-get update \
-    && apt-get -yq install bash git openssh-server yarn \
+    && apt-get -yq install bash git openssh-server \
     && npm install -g npm \
     && apt-get -yq clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
